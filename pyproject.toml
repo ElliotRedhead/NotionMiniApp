@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pythonnotion"
+version = "0.1.0"
+description = ""
+authors = ["Elliot Redhead <elliot@elliotredhead.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+ipdb = "^0.13.9"
+pprintpp = "^0.4.0"
+mypy = "^0.941"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+pytest = "^7.1.1"
+pdbpp = "^0.10.3"
+ipython = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
